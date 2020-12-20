@@ -32,7 +32,7 @@ export default function App() {
     <div className="App">
       <h1>{headingText}</h1>
 
-      <input onChange={emojiHandler}></input>
+      <input Placeholder='paste your emoji' onChange={emojiHandler}></input>
       <h2>{meaning}</h2>
 
       <h3>emojis we know </h3>
